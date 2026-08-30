@@ -14,7 +14,7 @@ const positions: Position[] = [
   {
     title: "Senior Software Engineer",
     company: "Oriental Rug Gallery",
-    time_period: "June 2015 - Present",
+    time_period: "June 2015 - June 2025",
     bullet_points: [
       "Created a backend Kotlin application to facilitate automatic inventory updating across seven retailers, including eBay, Amazon, Wayfair, Houzz, and Overstock. Revenue increased 37.82% year after launch, a net increase of $563,000.",
       "Installed, configured, maintained, and wrote custom addons for an e-commerce website with over 9,000 products utilizing Magento 2, MariaDB, Elasticsearch, Redis, and Varnish, generating $122,000 in sales for 2021.",
