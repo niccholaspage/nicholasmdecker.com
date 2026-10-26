@@ -113,8 +113,8 @@ importers:
         specifier: ^0.9.10
         version: 0.9.10(prettier-plugin-astro@0.14.1)(prettier@3.9.10)(typescript@6.0.3)
       '@astrojs/solid-js':
-        specifier: ^7.1.0
-        version: 7.1.0(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(solid-js@1.9.15)(yaml@2.9.0)
+        specifier: ^7.1.1
+        version: 7.1.1(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(solid-js@1.9.15)(yaml@2.9.0)
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@8.3.4(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
@@ -239,9 +239,9 @@ packages:
     resolution: {integrity: sha512-KTivpmnz6lDsC6o9H4+DNm2SrE/GHzw8cNAvEJwAvUT+eoaEnn/4NtbDNfRRaxaJHdp15gf+tfHAWiXR4wB3BA==}
     engines: {node: '>=22.12.0'}
 
-  '@astrojs/solid-js@7.1.0':
-    resolution: {integrity: sha512-l8iE3Mqd8bdTxKh8VeLfmCPpd8X5BQ/CT+lLaF50f+41auSK9ylJo772sarmuqkONEG5gzFH8/hSHdWopyRMYQ==}
-    engines: {node: '>=22.22.0'}
+  '@astrojs/solid-js@7.1.1':
+    resolution: {integrity: sha512-I8joJYxyTPQyAU+IjDU+5ZBsq1wbWbjsIQ/CQdBn2ZXYXnxmU1C/4roACLurDZR+EGJmsHfmMHL3dyIHinE0Cw==}
+    engines: {node: '>=22.23.4'}
     peerDependencies:
       solid-devtools: ^0.34.5
       solid-js: ^1.9.13
@@ -2569,7 +2569,7 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/solid-js@7.1.0(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(solid-js@1.9.15)(yaml@2.9.0)':
+  '@astrojs/solid-js@7.1.1(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(solid-js@1.9.15)(yaml@2.9.0)':
     dependencies:
       solid-js: 1.9.15
       vite: 8.3.4(@types/node@25.0.3)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
@@ -3558,7 +3558,7 @@ snapshots:
   css-tree@2.2.1:
     dependencies:
       mdn-data: 2.0.28
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   css-tree@3.2.1:
     dependencies:
